@@ -29,7 +29,7 @@ if [[ -z "${bfolder}" ]]; then
 fi
 
 mkdir -p "${bfolder}"
-echo "[$(date)] Backing up '${dbname}' to ${bfolder}."
+echo "[$(date)]: Backing up '${dbname}' to ${bfolder}."
 current_date=$(date "+%Y_%m")
 current_time=$(date "+%Y_%m_%d_%H_%M")
 mkdir -p $bfolder/$current_date
